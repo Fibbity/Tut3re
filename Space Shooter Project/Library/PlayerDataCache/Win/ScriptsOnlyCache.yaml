@@ -1,14 +1,17 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BGScroller
     - DestroyByBoundary
     - DestroyByContact
     - Done_DestroyByTime
+    - EvasiveManeuver
     - GameController
     - Mover
     - PlayerController
     - Quitscript
     - RandomRotator
+    - WeaponController
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -67,22 +70,30 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10238}
     - Class: 114
-      Script: {instanceID: 10548}
+      Script: {instanceID: 10372}
     - Class: 114
-      Script: {instanceID: 10624}
+      Script: {instanceID: 10550}
     - Class: 114
-      Script: {instanceID: 10670}
+      Script: {instanceID: 10628}
     - Class: 114
-      Script: {instanceID: 10996}
+      Script: {instanceID: 10674}
     - Class: 114
-      Script: {instanceID: 11038}
+      Script: {instanceID: 11000}
     - Class: 114
-      Script: {instanceID: 11050}
+      Script: {instanceID: 11042}
     - Class: 114
-      Script: {instanceID: 11388}
+      Script: {instanceID: 11048}
+    - Class: 114
+      Script: {instanceID: 11056}
+    - Class: 114
+      Script: {instanceID: 11394}
+    - Class: 114
+      Script: {instanceID: 13242}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -317,6 +328,12 @@ ScriptsOnlyBuild:
     className: Done_EvasiveManeuver
   - hash:
       serializedVersion: 2
+      Hash: be2d1663d6bc8ce39ce9c8dea6a963c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BGScroller
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -347,7 +364,7 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: 8e3818abe201b564b40ceaf987ad04a5
+      Hash: 96579b1d7c32aebb6c65db101ee7a10b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameController
@@ -483,6 +500,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 92383cc097b8119299a325deed76b619
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WeaponController
   - hash:
       serializedVersion: 2
       Hash: afc5b93a7b192de2dcb3832fe35a5c7e
@@ -621,8 +644,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 757d56d0910fdc18d03e5b801da35a3f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EvasiveManeuver
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/beatt/Desktop/Space Shooter Project/Space Shooter Project/Space
-    Shooter Project/Builds/Space Shooter Project.exe
+  playerPath: C:/Users/beatt/Desktop/School/Computer as a Medium/Tut3re/Space Shooter
+    Project/BuildChallenge/Space Shooter Project.exe
